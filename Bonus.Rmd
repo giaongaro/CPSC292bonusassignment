@@ -8,6 +8,9 @@ output: html_notebook
 print("Hello")
 ```
 
+```{r}
+print("This is my bonus assignment")
+```
 
 
 ```{r}
