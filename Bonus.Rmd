@@ -1,0 +1,13 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+(plot(height~age, data = Loblolly, 
+     col = Loblolly$Seed))
+points(x = Loblolly$age, y = Loblolly$height, col = Loblolly$Seed)
+```
+
+
+
